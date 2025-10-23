@@ -70,7 +70,7 @@ export default function TicketDetailPage() {
   
   // Activity/Comments
   const [activities, setActivities] = useState<Activity[]>([])
-  const [comments, setComments] = useState<TicketComment[]>([])
+  const [_comments, setComments] = useState<TicketComment[]>([])
   const [newComment, setNewComment] = useState("")
   const [addingComment, setAddingComment] = useState(false)
 
